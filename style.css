@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+  }
+  
+  .login-container,
+  .admin-container {
+    max-width: 300px;
+    margin: auto;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 6px;
+  }
+  
+  input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+  }
+  
+  button {
+    padding: 10px;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button[disabled] {
+    background-color: gray;
+  }
+  
+  .error {
+    color: red;
+  }
+  
