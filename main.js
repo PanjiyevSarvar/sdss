@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
           if (res.ok) {
             localStorage.setItem('token', data.token);
-            window.location.href = 'admin.html';
+            window.location.href = 'admin.htm';
           } else {
             error.textContent = data.message || 'Login failed';
           }
